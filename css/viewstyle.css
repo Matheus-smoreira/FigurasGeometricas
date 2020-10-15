@@ -3,47 +3,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
-.header {
+header {
     margin-top: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-.body {
-    display: flex;
+body {
     flex-direction: flex;
     flex-wrap: wrap;
     position: relative;
     background: linear-gradient(to right, #e0eafc, #cfdef3);
     justify-content: center;
     align-items: center;
-}
-
-.body .container {
     display: grid;
-    position: absolute;
-    top: 250px;
 }
 
-.container .menu {
-    display: flex;
-    padding: 20px;
-    border-color: #000;
-    border-style: solid;
-    border-width: 2px;
+.botao {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin-top: 25px;
 }
 
-.container ul {
-    height: 35px;
-    margin: 10px;
-    font-size: 30px;
+.titulo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
     font-family: 'Roboto', sans-serif;
-    color: black;
-    text-shadow: black .1em .1em .2em;
 }
 
-.container ul:hover {
-    opacity: 0.8;
+.calculo {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagem {
+    padding: 0;
 }
